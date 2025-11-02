@@ -2,7 +2,7 @@
 // @name         TamperMonkey Installer - Perplexity Full Width (tables & attachments)
 // @namespace    https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width/
 // @author       https://github.com/IanWardell/
-// @version      0.0.1
+// @version      1.0.1
 // @description  Lightweight loader that fetches and runs the latest Perplexity Full Width script from GitHub. Safe to install on any *.perplexity.ai page.
 // @match        *://*.perplexity.ai/*
 // @all-frames   true
