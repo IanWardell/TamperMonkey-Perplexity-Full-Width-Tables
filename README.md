@@ -1,5 +1,5 @@
 # Tampermonkey-Perplexity-Full-Width
-Tampermonkey script that expands Perplexity tables and attachment grids to use the full available width while respecting the existing UI.
+Tampermonkey script that expands Perplexity tables to use the full available width while respecting the existing UI.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-v4.20%2B-blue)](#prerequisites)
