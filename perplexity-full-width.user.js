@@ -56,16 +56,10 @@
         log('stretchAttachments() done');
     }
 
-    function debounce(fn, delay = 150) {
-        let t; 
-        return (...args) => { clearTimeout(t); t = setTimeout(() => fn.apply(null, args), delay); };
-    }
-    const debouncedStretch = debounce(stretchAttachments, 150);
-
     function init() {
         log('init');
         stretchAttachments();
-        const mo = new MutationObserver(() => debouncedStretch());
+        const mo = new MutationObserver(() => stretchAttachments());
         mo.observe(document.body, { childList: true, subtree: true });
         log('MutationObserver active');
     }
