@@ -10,7 +10,13 @@ Tampermonkey script that expands Perplexity tables and attachment grids to use t
 
 **Author:** [IanWardell](https://github.com/IanWardell)  
 **License:** MIT  
-**Version:** 1.0.1
+**Version:** 1.0.2
+
+## Screenshots
+
+| Before | After |
+|:-------:|:------:|
+| ![Limited Width Sample](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/blob/main/Images/Limited-Width-Sample.png?raw=true) | ![Full Width Sample](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/blob/main/Images/Full-Width-Sample.png?raw=true) |
 
 ## Prerequisites
 - Browser: Chrome 120+ (tested), Firefox 122+, Edge 120+
@@ -49,13 +55,6 @@ Tampermonkey script that expands Perplexity tables and attachment grids to use t
 - Main script:
   - Uses `@grant none`.
   - Does not make network requests or collect data.
-  
-## Screenshots
-
-| Before | After |
-|:-------:|:------:|
-| ![Limited Width Sample](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/blob/main/Images/Limited-Width-Sample.png?raw=true) | ![Full Width Sample](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/blob/main/Images/Full-Width-Sample.png?raw=true) |
-
 
 ## Troubleshooting
 Most breakages occur when Perplexity updates class names. Always check the "Scope and selectors used" section first.
