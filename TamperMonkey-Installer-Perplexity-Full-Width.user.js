@@ -14,13 +14,13 @@
 // @connect      raw.githubusercontent.com
 // @connect      githubusercontent.com
 // @connect      github.com
-// @updateURL    https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js
-// @downloadURL  https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js
+// @updateURL    https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js
+// @downloadURL  https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js
 // ==/UserScript==
 
 (function(){'use strict';
     const LOG_PREFIX = '[PerplexityWide-Installer]';
-    const SOURCE_URL = 'https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/perplexity-full-width.user.js';
+    const SOURCE_URL = 'https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/main/perplexity-full-width.user.js';
 
     function log(...args){ try{ console.log(LOG_PREFIX, ...args); }catch(_e){} }
 

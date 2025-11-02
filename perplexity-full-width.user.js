@@ -8,8 +8,8 @@
 // @all-frames   true
 // @run-at       document-idle
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/perplexity-full-width.user.js
-// @downloadURL  https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/perplexity-full-width.user.js
+// @updateURL    https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/main/perplexity-full-width.user.js
+// @downloadURL  https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/main/perplexity-full-width.user.js
 // @license      MIT
 // ==/UserScript==
 
