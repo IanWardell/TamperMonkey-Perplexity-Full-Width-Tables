@@ -5,7 +5,7 @@ TamperMonkey Script to make Perplexity Tables Output Full-Width
 **License:** MIT  
 **Version:** 1.1.0  
 
-> Ensure output **tables and attachment grids** in [Perplexity.ai](https://www.perplexity.ai) display full width — even inside multi-column layouts or flex attachment groups.  
+> Ensure output **tables and attachment grids** in [Perplexity.ai](https://www.perplexity.ai) display full width, even inside multi-column layouts or flex attachment groups.  
 > Designed to fix the constrained table/attachment rendering used in the default UI.
 
 ---
@@ -15,7 +15,7 @@ TamperMonkey Script to make Perplexity Tables Output Full-Width
 ### ✅ Recommended: Installer (auto-updates)
 This lightweight loader always fetches the latest stable build of the main script.
 
-[**▶ Install TamperMonkey-Installer-Perplexity-Full-Width.user.js**](https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js)
+[**▶ Install TamperMonkey-Installer-Perplexity-Full-Width.user.js**](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/raw/refs/heads/main/TamperMonkey-Installer-Perplexity-Full-Width.user.js)
 
 > Keeps your Perplexity layout automatically patched.  
 > Includes menu command: “Reload Perplexity Full Width (fetch latest)”.
@@ -25,7 +25,7 @@ This lightweight loader always fetches the latest stable build of the main scrip
 ### ⚙️ Direct Install (fixed version)
 If you prefer to pin to a specific build:
 
-[**▶ Install perplexity-full-width.user.js**](https://raw.githubusercontent.com/IanWardell/TamperMonkey-Perplexity-Full-Width/main/perplexity-full-width.user.js)
+[**▶ Install perplexity-full-width.user.js**](https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width-Tables/raw/refs/heads/main/perplexity-full-width.user.js)
 
 ---
 
