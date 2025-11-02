@@ -13,16 +13,14 @@
 // @license      MIT
 // ==/UserScript==
 
-(function(){'use strict';
-    const DEBUG = true;
-    const LOG_PREFIX = '[PerplexityWide]';
-    const log = (...args) => { if (DEBUG) try { console.log(LOG_PREFIX, ...args); } catch(_e) {} };
+(function() {
+    'use strict';
 
     function stretchAttachments() {
-        log('stretchAttachments() start');
-        // Table groups and output tables
+        // All table groups and output tables
         document.querySelectorAll('div.group.relative').forEach(group => {
             group.style.width = 'fit-content';
+            // Table wrappers and direct tables
             group.querySelectorAll('div.w-full, table').forEach(el => {
                 el.style.width = '100%';
                 el.style.maxWidth = '100vw';
@@ -36,37 +34,23 @@
             minw.style.maxWidth = '100vw';
         });
 
-        // group.relative.flex wrappers
+        // Specifically fix group.relative.flex wrappers, often used for multi-column file attachments
         document.querySelectorAll('div.group.relative.flex').forEach(flexGroup => {
             flexGroup.style.width = '100%';
             flexGroup.style.maxWidth = '100vw';
         });
-
-        // Grid columns
+        // Each column in the grid
         document.querySelectorAll('.gap-sm.grid > .min-w-0').forEach(col => {
             col.style.width = '100%';
             col.style.maxWidth = '100vw';
         });
-
-        // File-attachment list rows
+        // File-attachment lists (common for PDF rows)
         document.querySelectorAll('.line-clamp-1').forEach(row => {
             row.style.maxWidth = '100vw';
         });
-
-        log('stretchAttachments() done');
     }
 
-    function init() {
-        log('init');
-        stretchAttachments();
-        const mo = new MutationObserver(() => stretchAttachments());
-        mo.observe(document.body, { childList: true, subtree: true });
-        log('MutationObserver active');
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
+    document.addEventListener('DOMContentLoaded', stretchAttachments);
+    let observer = new MutationObserver(stretchAttachments);
+    observer.observe(document.body, { childList: true, subtree: true });
 })();
