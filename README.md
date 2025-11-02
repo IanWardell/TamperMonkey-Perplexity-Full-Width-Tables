@@ -39,9 +39,9 @@ Tampermonkey script that expands Perplexity tables to use the full available wid
 2. Direct installs do not auto update. Reinstall to get new versions later.
 
 ## Verify
-- Open a Perplexity.ai answer that renders tables or attachment grids.
+- Open a Perplexity.ai answer that renders tables.
 - Open the DevTools Console and confirm you see log lines prefixed with `[PerplexityWide]`.
-- Resize the window. Tables and attachment grids should fill the available width and scroll horizontally when needed.
+- Resize the window. Tables should fill the available width and scroll horizontally when needed.
 
 ## Configuration and debug
 - The main script has a DEBUG toggle near the top: `const DEBUG = true;`.
