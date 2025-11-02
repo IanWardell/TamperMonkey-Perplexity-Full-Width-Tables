@@ -2,7 +2,7 @@
 // @name         Full Width Perplexity Attachments & Tables
 // @namespace    https://github.com/IanWardell/TamperMonkey-Perplexity-Full-Width/
 // @author       https://github.com/IanWardell/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Ensure output tables AND attachment grids display full width on Perplexity
 // @match        *://*.perplexity.ai/*
 // @all-frames   true
